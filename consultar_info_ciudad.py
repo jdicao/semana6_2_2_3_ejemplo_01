@@ -24,5 +24,5 @@ for registro in data_02:
 print("")
 print("Muestra todos los documentos de la coleccion ciudades donde la provincia sea Guayas")
 data_03 = coleccion.find({'provincia':'Guayas'})
-for registro in data_02:
+for registro in data_03:
     print(registro)
