@@ -3,4 +3,4 @@
     desde Python
 """
 from pymongo import MongoClient
-client = MongoClient('mongodb://localhost:27010/')
+client = MongoClient('mongodb://localhost:27017/')
